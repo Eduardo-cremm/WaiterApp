@@ -1,0 +1,32 @@
+{
+  "name": "waiterapp",
+  "version": "1.0.0",
+  "description": "Desenvolvendo um aplicativo para restaurantes, focando na criação de um sistema de pedidos para garçons. Utilizaremos o Figma para o design e o Node.js com Express para o backend. Vamos configurar o TypeScript, criar um servidor, conectar ao MongoDB e definir rotas RESTful. Além disso, implementaremos models com Mongoose para gerenciar dados de categorias, produtos e pedidos. Ao final, teremos um aplicativo funcional que poderá ser usado em tablets por garçons, com funcionalidades como listagem de categorias, produtos e gerenciamento de pedidos.",
+  "homepage": "https://github.com/Eduardo-cremm/WaiterApp#readme",
+  "bugs": {
+    "url": "https://github.com/Eduardo-cremm/WaiterApp/issues"
+  },
+  "repository": "git+https://github.com/Eduardo-cremm/WaiterApp.git",
+  "license": "ISC",
+  "author": "Eduardo Cremm <138538705+Eduardo-cremm@users.noreply.github.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec \"ts-node --esm\" src/index.ts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/express": "^5.0.6",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.49.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^7.0.0"
+  }
+}
