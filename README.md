@@ -22,6 +22,24 @@ O projeto é dividido em três aplicações que conversam entre si via API REST 
 4. A cozinha movimenta o pedido entre as colunas do quadro (`Fila de espera` → `Em preparação` → `Pronto!`), e cada troca de status também é propagada em tempo real.
 5. Ao finalizar ou cancelar, o pedido some do quadro para todos que estiverem com a tela aberta.
 
+## 📸 Screenshots
+
+### Painel web (cozinha)
+
+| Quadro de pedidos | Detalhes do pedido | Pedido concluído |
+|---|---|---|
+| ![Quadro de pedidos](docs/screenshots/web-orders-board.png) | ![Detalhes do pedido](docs/screenshots/web-order-modal.png) | ![Pedido pronto](docs/screenshots/web-orders-board-ready.png) |
+
+### App mobile (garçom)
+
+| Cardápio | Bebidas | Pizzas | Burgers |
+|---|---|---|---|
+| ![Cardápio](docs/screenshots/mobile-menu-geral.png) | ![Bebidas](docs/screenshots/mobile-menu-bebidas.png) | ![Pizzas](docs/screenshots/mobile-menu-pizza.png) | ![Burgers](docs/screenshots/mobile-menu-burgers.png) |
+
+| Informar mesa | Carrinho | Pedido confirmado |
+|---|---|---|
+| ![Informar mesa](docs/screenshots/mobile-table-modal-filled.png) | ![Carrinho](docs/screenshots/mobile-cart.png) | ![Pedido confirmado](docs/screenshots/mobile-order-confirmed.png) |
+
 ## 🚀 Tecnologias e conceitos aplicados
 
 ### Backend (`api/`)
