@@ -10,8 +10,12 @@ export default defineConfig([
   pluginReact.configs.flat.recommended,
   {
     files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
+    settings: {
+      react: { version: "detect" },
+    },
     rules: {
       indent: ["error", 2],
+      "react/react-in-jsx-scope": "off",
     },
   },
 ]);
