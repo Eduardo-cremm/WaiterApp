@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/logo-banner.svg" alt="WaiterApp Logo" width="424" />
+</p>
+
 # 🍔 WaiterApp
 
 Sistema completo de gerenciamento de pedidos para restaurantes, pensado para o fluxo real de um salão: o garçom registra o pedido pelo tablet/celular e a cozinha acompanha o status em tempo real em um painel na tela.
